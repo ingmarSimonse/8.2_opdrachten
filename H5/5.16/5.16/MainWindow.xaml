@@ -1,0 +1,16 @@
+﻿<Window x:Class="_5._16.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_5._16"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txbA" HorizontalAlignment="Left" Margin="192,105,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbB" HorizontalAlignment="Center" Margin="0,105,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbC" HorizontalAlignment="Left" Margin="483,105,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnGetInput" Content="Get input" HorizontalAlignment="Center" Margin="0,173,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="_5._5new.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_5._5new"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas x:Name="cvsDrawPolygon" Margin="0,116,0,0"/>
+        <TextBox x:Name="txbTopY" HorizontalAlignment="Left" Margin="218,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbHeight" HorizontalAlignment="Left" Margin="603,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbTopX" HorizontalAlignment="Left" Margin="56,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbWidth" HorizontalAlignment="Left" Margin="455,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="TopY" HorizontalAlignment="Left" Margin="98,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="TopX" HorizontalAlignment="Left" Margin="260,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Width" HorizontalAlignment="Left" Margin="497,11,0,0" VerticalAlignment="Top"/>
+        <Label Content="Heigth" HorizontalAlignment="Left" Margin="645,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnDrawPolygon" Content="Draw" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

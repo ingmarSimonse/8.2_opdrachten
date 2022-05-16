@@ -1,0 +1,15 @@
+﻿<Window x:Class="_5._18.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_5._18"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txbSec1" HorizontalAlignment="Left" Margin="267,147,0,0" TextWrapping="Wrap" Text="4500" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbSec2" HorizontalAlignment="Left" Margin="404,147,0,0" TextWrapping="Wrap" Text="14570" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.583,0.796"/>
+        <Button x:Name="btnCalc" Content="Calculate" HorizontalAlignment="Center" Margin="0,197,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
